@@ -66,7 +66,7 @@ static constexpr const char* LOCALE_FILE = "/cache/recovery/last_locale";
 static RecoveryUI* ui = nullptr;
 
 static bool IsRoDebuggable() {
-  return android::base::GetBoolProperty("ro.debuggable", false);
+  return true;
 }
 
 static bool IsDeviceUnlocked() {
